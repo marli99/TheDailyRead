@@ -19,13 +19,15 @@
                 <div class="login-form">
 
                     <div class="login">
-                        <h3>LOGIN</h3>
+                        <h3>The Daily</h3><h2>Read<h2>
                         <div class="error-out">
                  
                         </div><!--error-out-->
-                        <form method="post">
-                            <input style="margin-bottom:15px; margin-top:20px;" type="text" name="username" placeholder="username">
-                            <input style="margin-bottom:15px;" type="password" name="password" placeholder="password">
+                        <form method="post" style="margin-left:8%"> 
+                            <h1>Username<h1>
+                            <input type="text" name="username">
+                            <h1>Password<h1>
+                            <input type="password" name="password">
                             <input type="submit" name="login" value="Sign In"> 
                             <input type="button" class="form-reg" value="REGISTER"> 
                         </form>
